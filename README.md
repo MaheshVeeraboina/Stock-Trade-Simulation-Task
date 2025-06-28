@@ -30,3 +30,8 @@ A backend system built with **Node.js** and **SQLite** to simulate stock trading
 
 ## 📂 Project Structure
 
+coding-assignment-2/
+│
+├── index.js # Main application
+├── package.json # Dependencies and scripts
+└── stock-sim.db # SQLite database file
