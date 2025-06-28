@@ -1,0 +1,54 @@
+
+POST http://localhost:3000/stocks/register
+Content-Type: application/json
+
+{
+  "name": "TCS",
+  "quantity": 1000,
+  "price": 50
+}
+
+
+GET http://localhost:3000/stocks/history
+
+
+POST http://localhost:3000/users/loan
+Content-Type: application/json
+
+{
+  "user_id": 1,
+  "amount": 50000
+}
+
+POST http://localhost:3000/users/buy
+Content-Type: application/json
+
+{
+  "user_id": 1,
+  "stock_id": 1,
+  "quantity": 5
+}
+
+POST http://localhost:3000/users/sell
+Content-Type: application/json
+
+{
+  "user_id": 1,
+  "stock_id": 1,
+  "quantity": 2
+}
+
+GET http://localhost:3000/users/report
+
+
+GET http://localhost:3000/stocks/report
+
+
+GET http://localhost:3000/users/top
+
+
+GET http://localhost:3000/stocks/top
+
+
+GET http://localhost:3000/stocks/top-gainer
+
